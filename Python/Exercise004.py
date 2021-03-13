@@ -1,0 +1,8 @@
+a = input("Digite algo aqui e espere o retorno: ")
+print('O tipo primitivo desse valor é: ', type(a))
+print('Existe espaço nesse valor?', a.isspace())
+print('Esse valor é númerico?', a.isnumeric())
+print('Esse valor é alfabético?', a.isalpha())
+print("Esse valor é alfabético?", a.isalnum)
+print('Esta em maiúsculas?', a.isupper())
+print('Esta em minúsculas?', a.islower())
